@@ -1,0 +1,26 @@
+{
+  "name": "food-menu-react-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-food": "npm install",
+    "install-server": "cd ./client && npm install",
+    "install-client": "cd ./server && npm install",
+    "install": "npm install concurrently --save & concurrently \"npm run install-food\" \"npm run install-server\" \"npm run install-client\"",
+    "start": "concurrently \"npm run start-client\" \"npm run start-server\"",
+    "start-client": "cd ./client && npm start",
+    "start-server": "cd ./server && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "client": "^0.0.1",
+    "server": "^1.0.38"
+  }
+}

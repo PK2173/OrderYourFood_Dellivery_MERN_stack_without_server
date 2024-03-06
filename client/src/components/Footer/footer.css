@@ -1,0 +1,30 @@
+.footercontainer {
+  background-image: url("../../assets/bg2.jpg");
+  background-color: #cccccc;
+  padding: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.footer__nav a{
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
+
+.footer__addr a {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
