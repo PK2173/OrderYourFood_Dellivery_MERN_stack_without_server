@@ -30,7 +30,8 @@ router.post("/",virifiToken, uploade.single("image"), async (req, res) => {
 
 
 router.get("/foodinfo/:typefood",async (req,res)=>{
-  let data = await knex("Foodstoreg").where({foodtype:req.params.typefood})
+  let data = await knex("Foodstoreg")
+  console.log(data);
   res.send(data)
 })
 

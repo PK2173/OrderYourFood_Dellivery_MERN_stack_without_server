@@ -6,6 +6,7 @@ import { useGlobalContext } from "../Context/Context";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import foodinfo from "../../assets/foodinfo";
 
 export default function Dynamiccorner() {
   const data = useGlobalContext();
@@ -29,6 +30,7 @@ export default function Dynamiccorner() {
         setdataerray(result.data);
       })
       .catch((err) => {
+        setdataerray(foodinfo.filter(x=> x.foodtype===typeoffood));
         console.log(err);
       });
   }, [typeoffood]);
