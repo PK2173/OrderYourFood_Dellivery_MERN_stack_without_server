@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/css/main.871a2676.css",
-    "main.js": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/js/main.61809de3.js",
+    "main.js": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/js/main.25f9ce71.js",
     "static/media/insertfoodimg.png": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/insertfoodimg.fb27639b0339740074d0.png",
     "static/media/dilivery.mp4": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/dilivery.cd683a753ab41b02071c.mp4",
     "static/media/lunk.jpg": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/lunk.df9cfa926c3efbf8cd82.jpg",
@@ -13,10 +13,10 @@
     "static/media/dinner.jpeg": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/dinner.2660f359ec8598fa11c3.jpeg",
     "index.html": "/OrderYourFood_Dellivery_MERN_stack_without_server/index.html",
     "main.871a2676.css.map": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/css/main.871a2676.css.map",
-    "main.61809de3.js.map": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/js/main.61809de3.js.map"
+    "main.25f9ce71.js.map": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/js/main.25f9ce71.js.map"
   },
   "entrypoints": [
     "static/css/main.871a2676.css",
-    "static/js/main.61809de3.js"
+    "static/js/main.25f9ce71.js"
   ]
 }
