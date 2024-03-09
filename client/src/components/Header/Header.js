@@ -9,10 +9,10 @@ export default function Header() {
     if (sessionStorage.getItem("foodtype")) {
       sessionStorage.removeItem("foodtype");
       sessionStorage.setItem("foodtype", typefood);
-      native("./addfood");
+      native("./OrderYourFood_Dellivery_MERN_stack_without_server/addfood");
     } else {
       sessionStorage.setItem("foodtype", typefood);
-      native("./addfood");
+      native("./OrderYourFood_Dellivery_MERN_stack_without_server/addfood");
     }
   };
   const logout = () => {
@@ -31,14 +31,14 @@ export default function Header() {
         <div className="headerlable">
           <ul>
             <li>
-              <Link to="./"> Home</Link>
+              <Link to="./OrderYourFood_Dellivery_MERN_stack_without_server"> Home</Link>
             </li>
             <li>
-              <Link to="./">Menu</Link>
+              <Link to="./OrderYourFood_Dellivery_MERN_stack_without_server">Menu</Link>
               <ul className="dropdown">
                 <li>
                   <Link
-                    to="./addfood"
+                    to="./OrderYourFood_Dellivery_MERN_stack_without_server/addfood"
                     onClick={() => {
                       foodtype("Snackes");
                     }}
@@ -48,7 +48,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    to="./addfood"
+                    to="./OrderYourFood_Dellivery_MERN_stack_without_server/addfood"
                     onClick={() => {
                       foodtype("Southindianfood");
                     }}
@@ -58,7 +58,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    to="./addfood"
+                    to="./OrderYourFood_Dellivery_MERN_stack_without_server/addfood"
                     onClick={() => {
                       foodtype("BreakFast");
                     }}
@@ -68,7 +68,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    to="./addfood"
+                    to="./OrderYourFood_Dellivery_MERN_stack_without_server/addfood"
                     onClick={() => {
                       foodtype("Lunck");
                     }}
@@ -78,7 +78,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    to="./addfood"
+                    to="./OrderYourFood_Dellivery_MERN_stack_without_server/addfood"
                     onClick={() => {
                       foodtype("Dinner");
                     }}
@@ -108,10 +108,10 @@ export default function Header() {
             ) : (
               <>
                 <li>
-                  <Link to="./singup"> Singup</Link>
+                  <Link to="./OrderYourFood_Dellivery_MERN_stack_without_server/singup"> Singup</Link>
                 </li>
                 <li>
-                  <Link to="./login">Login</Link>
+                  <Link to="./OrderYourFood_Dellivery_MERN_stack_without_server/login">Login</Link>
                 </li>
               </>
             )}

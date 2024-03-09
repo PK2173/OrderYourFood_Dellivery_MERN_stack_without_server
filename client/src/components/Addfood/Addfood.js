@@ -31,13 +31,13 @@ export default function Addfood() {
         } else {
           setlode(true);
           alert("Somthing Went Wrong");
-          navigate("/");
+          navigate("/OrderYourFood_Dellivery_MERN_stack_without_server");
         }
       })
       .catch((err) => {
         setlode(false);
         alert(JSON.stringify(err));
-        // navigate("/");
+        // navigate("/OrderYourFood_Dellivery_MERN_stack_without_server");
       });
   };
   return (

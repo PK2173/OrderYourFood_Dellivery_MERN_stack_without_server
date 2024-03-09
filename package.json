@@ -1,9 +1,12 @@
 {
+  "homepage": "https://PK2173.github.io/OrderYourFood_Dellivery_MERN_stack_without_server",
   "name": "food-menu-react-main",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "install-food": "npm install",
     "install-server": "cd ./client && npm install",
     "install-client": "cd ./server && npm install",
@@ -21,6 +24,7 @@
   },
   "dependencies": {
     "client": "^0.0.1",
+    "gh-pages": "^6.1.1",
     "server": "^1.0.38"
   }
 }

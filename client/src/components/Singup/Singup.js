@@ -27,7 +27,7 @@ export default function Singup() {
       })
       .catch((err) => {
         alert(JSON.stringify(err));
-        navigate("/");
+        navigate("/OrderYourFood_Dellivery_MERN_stack_without_server");
       });
   };
 

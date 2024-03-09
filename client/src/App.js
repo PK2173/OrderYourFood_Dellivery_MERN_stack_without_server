@@ -14,12 +14,12 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-        <Route path="/" exact Component={Home} />
-        <Route path="/addfood" exact Component={Addfood} />
-        <Route path="/corner" exact Component={Dynamiccorner} />
-        <Route path="/singup" exact Component={Singup}/>
-        <Route path="/login" exact Component={Login}/>
-        <Route path="/order" exact Component={Order}/>
+        <Route path="/OrderYourFood_Dellivery_MERN_stack_without_server" exact Component={Home} />
+        <Route path="/OrderYourFood_Dellivery_MERN_stack_without_server/addfood" exact Component={Addfood} />
+        <Route path="/OrderYourFood_Dellivery_MERN_stack_without_server/corner" exact Component={Dynamiccorner} />
+        <Route path="/OrderYourFood_Dellivery_MERN_stack_without_server/singup" exact Component={Singup}/>
+        <Route path="/OrderYourFood_Dellivery_MERN_stack_without_server/login" exact Component={Login}/>
+        <Route path="/OrderYourFood_Dellivery_MERN_stack_without_server/order" exact Component={Order}/>
         </Routes>
         <Footer/>
       </Router>

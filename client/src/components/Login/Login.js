@@ -26,13 +26,13 @@ export default function Login() {
           localStorage.setItem("SetData", result.data.token);
           update.setvalidater(update.validater+1)
           alert("login successfully");
-          navigate("/");
+          navigate("/OrderYourFood_Dellivery_MERN_stack_without_server");
         }
       })
       .catch((err) => {
         console.log(err);
         alert("somthing went wrong. Kindly check you data or register");
-        navigate("/");
+        navigate("/OrderYourFood_Dellivery_MERN_stack_without_server");
       });
   };
 

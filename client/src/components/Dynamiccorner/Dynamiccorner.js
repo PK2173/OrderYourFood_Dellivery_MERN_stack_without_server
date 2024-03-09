@@ -17,10 +17,10 @@ export default function Dynamiccorner() {
     if (sessionStorage.getItem("orderid")) {
       sessionStorage.removeItem("orderid");
       sessionStorage.setItem("orderid", JSON.stringify(id));
-      navigator("/order");
+      navigator("/OrderYourFood_Dellivery_MERN_stack_without_server/order");
     } else {
       sessionStorage.setItem("orderid", JSON.stringify(id));
-      navigator("/order");
+      navigator("/OrderYourFood_Dellivery_MERN_stack_without_server/order");
     }
   }
   useEffect(() => {
