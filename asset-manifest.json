@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/css/main.871a2676.css",
+    "main.js": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/js/main.61809de3.js",
+    "static/media/insertfoodimg.png": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/insertfoodimg.fb27639b0339740074d0.png",
+    "static/media/dilivery.mp4": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/dilivery.cd683a753ab41b02071c.mp4",
+    "static/media/lunk.jpg": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/lunk.df9cfa926c3efbf8cd82.jpg",
+    "static/media/logo.png": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/logo.714bd94e516b27fe12c9.png",
+    "static/media/foodheader.png": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/foodheader.a4736a6a22f4ea52afb3.png",
+    "static/media/rocket.png": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/rocket.4bf2b4a8a4100891bbf5.png",
+    "static/media/snacks.jpeg": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/snacks.32617f1160d7bb5b853c.jpeg",
+    "static/media/bg2.jpg": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/bg2.4ad929becb55a95de2e7.jpg",
+    "static/media/dinner.jpeg": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/media/dinner.2660f359ec8598fa11c3.jpeg",
+    "index.html": "/OrderYourFood_Dellivery_MERN_stack_without_server/index.html",
+    "main.871a2676.css.map": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/css/main.871a2676.css.map",
+    "main.61809de3.js.map": "/OrderYourFood_Dellivery_MERN_stack_without_server/static/js/main.61809de3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.871a2676.css",
+    "static/js/main.61809de3.js"
+  ]
+}
